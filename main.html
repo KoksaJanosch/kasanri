@@ -33,26 +33,20 @@
     <!-- MAIN STYLESHEETS-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all"/>
     <link rel="stylesheet" href="assets/css/theme.min.css" type="text/css" media="all"/>
+    <!-- JAVASCRIPT and JQUERY-->
   </head>
+
   <body>
+    
     <nav class="navbar">
       <div class="container text-center"><a href="index-slider.html"><img src="assets/images/logo/logo-dark.png" alt="logo" class="logo"/></a><a data-toggle="collapse" data-target="#side-menu" class="toggle-menu menu-right pull-right push-body nav-icon"><span class="sr-only">Toggle Navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a>
         <div class="collapse navbar-collapse center-block">
           <ul class="navbar-nav navigation-symbol">
-            <li> <a href="#about">O MNĚ</a></li>
-            <li> <a href="#services">OTÁZKY</a></li>
-            <li> <a href="#works">WORKS</a></li>
-            <li> <a href="#team">TEAM</a></li>
-            <li> <a href="#testimonials">TESTIMONIALS</a></li>
-            <li> <a href="#blog">BLOG</a></li>
-            <li> <a href="#contact">CONTACT</a></li>
-            <li class="dropdown"> <a data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle">MORE <i class="caret"></i></a>
-              <ul role="menu" class="dropdown-menu">
-                <li> <a href="blog.html" class="dropdown-link">BLOG</a></li>
-                <li> <a href="blog-post-single.html" class="dropdown-link">SINGLE POST</a></li>
-                <li> <a href="blog-post-single-sidebar.html" class="dropdown-link">POST SIDEBAR </a></li>
-              </ul>
-            </li>
+            <li> <a href="#omne">O MNĚ</a></li>
+            <li> <a href="#social">SOCIAL MEDIA</a></li>
+            <li> <a href="#qaa">Q&A</a></li>
+            <li> <a href="#kontakt">KONTAKT</a></li>
+            <li> <a href="#noty">NOTY</a></li>
           </ul>
         </div>
         <div id="side-menu" class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right text-left"><img src="assets/images/logo/logo-light.png" alt="Logo"/><a href="#" class="close-menu"><i class="icon ion-ios-close-empty icon-close menu-close-btn"></i></a>
@@ -78,21 +72,39 @@
         </div>
       </div>
     </nav>
-    <div class="go-top"><i class="ion-android-arrow-dropup-circle"></i></div>
-    <div class="full-height">
-      <div id="head_panel_slider" class="owl-carousel">
-        <div class="item full-height vertical-middle text-center section-overlay-dark background-slide-1">
-          <div class="inner animated fadeIn minimal-white with-cross"><i></i>
-            <h2>MINIMAL &amp; MODERN</h2><span class="animated fadeInUp">DESIGN FIRM</span>
+
+    <div class="go-top"><i class="ion-android-arrow-dropup-circle" style="color: #FEEA00;"></i></div>
+
+ <!-- <div class="full-height" style="background-color: black;"> -->   
+        <div class="row text-center">
+          <div class=" col-sm-12 col-md-6" 
+            style="background-color: black; padding: 125px;">
+            <header class="section-head">
+              <h2 style="color: lightgray; font-size: 30px;">HRANÍ</h2>
+              <p style="color: gray">
+                Pokud si mě chcete objednat na akci, zjistit něco málo o mě a poslechnout si, jak hraju na piáno...
+              </p>
+            </header>
           </div>
+
+        <div class=" col-sm-12 col-md-6" style="background-color: white; padding: 125px;">
+          <header class="section-head">
+            <h2 style="color: lightgray; font-size: 30px;">NOTY</h2>
+            <p style="color: gray">
+              Pokud si chcete prohlédnou má hudební aražmá, pak klikněte zde...
+            </p>
+          </header>
         </div>
-        <div class="item full-height vertical-middle text-center section-overlay-dark background-slide-2">
-          <div class="inner animated fadeIn minimal-white with-cross"><i></i>
-            <h2>DETAILS MATTER</h2><span class="animated fadeInUp">BRANDING EXPERTS</span>
-          </div>
-        </div>
+
       </div>
+
+
+
+
+    <div class="text-center" style="background-color:#f9f9f9">
+      <a href="#about"><i class="ion-arrow-down-b" style="font-size: 25px;"></i></a>
     </div>
+    
     <section id="about" class="section section-dark text-center">
       <div class="container">
         <header class="section-head"><span>01</span>
@@ -118,7 +130,7 @@
             </div>
           </div>
           <div class="col-md-4"><img src="assets/images/photos/7.jpeg" alt="About Image"/></div>
-          <div class="col-md-4 margin-top padding-top">
+          <div class="col-md-4 padding-top">
             <h3 data-os-animation="fadeInUp" data-os-animation-delay="0s" class="os-animation"> Kde jsem se naučil hrát a kde beru inspiraci?</h3><span data-os-animation="fadeInUp" data-os-animation-delay="0s" class="os-animation"> </span>
             <p data-os-animation="fadeInUp" data-os-animation-delay="0s" class="os-animation"> 
               Chodil jsem 7 let na ZUŠ, kde jsem se naučil takový základ jako noty,
@@ -132,7 +144,7 @@
               <li> Punctual people</li>
             </ul>
           </div>
-          <div class="col-md-4 padding-top-huge small-screen-no-padding">
+          <div class="col-md-4 small-screen-no-padding" style="padding-top: 200px;">
             <p data-os-animation="fadeInUp" data-os-animation-delay=".2s" class="os-animation">
               Mým životním idolem je můj dědeček, který hraje na piano přes 70 let. Mám i další vzory, kterými jsou také pianisti z
               Youtube jako Jacob Koller, Scott Bradlee (zakladatel Postmodern jukebox), Johny May, Peter Bence, Francesco Parrino,
@@ -144,11 +156,24 @@
     </section>
     <section id="video-intro" class="section section-nopadding-bottom section-black text-center">
       <header class="section-head padded-big">
-        <h2>YOUTUBE KANÁL</h2>
-        <p>Videa, jak to umím s piánem najdete na mém kanále.</p>
+        <h2>SOCIÁLNÍ MÉDIA</h2>
+        <p>Videa, jak to umím s piánem najdete na mém youtube kanále.<br>
+           Sledovat mě však můžete i na Facebooku a Instagramu.</p>
+          <div style="padding-top: 25px">
+            <a href="https://www.facebook.com/richard.kasan.3" target="none"><i class="ion-social-facebook" style="font-size: 25px; padding:10px;"></i></a>
+            <a href="https://www.youtube.com/" target="none"><i class="ion-social-youtube" style="font-size: 25px; padding:10px;"></a></i>
+            <a href="https://www.instagram.com/kasanrichard/" target="none"><i class="ion-social-instagram-outline" style="font-size: 25px; padding:10px;"></i></a>
+          </div>
       </header>
-      <div class="video-intro section section-short section-dark"><i data-os-animation="video-line" data-os-animation-delay="0s" class="os-animation"></i><a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-youtube"><img src="assets/images/video-image.jpg" alt="Video Image"/><span></span></a></div>
+ 
+      <div class="video-intro section section-short section-dark"><i data-os-animation="video-line" data-os-animation-delay="0s" class="os-animation"></i>
+        <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-youtube">
+          <img src="assets/images/photos/3.jpg" alt="Video Image" style="height: 600px;"/><span></span></a>
+      </div>
     </section>
+    
+    
+
     <section id="services" class="section section-dark text-center padding-bottom-fix">
       <div class="container">
         <header class="section-head"><span>02</span>
