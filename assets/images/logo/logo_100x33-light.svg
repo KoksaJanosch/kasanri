@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="33px" viewBox="0 0 100 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>logo_100x33-light</title>
+    <desc>Created with Sketch.</desc>
+    <g id="logo_100x33-light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#FFFFFF" x="0" y="1" width="8" height="31"></rect>
+        <rect id="Rectangle-Copy" fill="#FFFFFF" x="15" y="1" width="7" height="15"></rect>
+        <rect id="Rectangle-Copy-2" fill="#FFFFFF" x="15" y="22" width="7" height="10"></rect>
+        <rect id="Rectangle-Copy-4" fill="#FFFFFF" x="47" y="17" width="8" height="15"></rect>
+        <rect id="Rectangle-Copy-5" fill="#FFFFFF" x="47" y="1" width="8" height="10"></rect>
+        <rect id="Rectangle-Copy-3" fill="#FFFFFF" x="32" y="1" width="7" height="31"></rect>
+        <text id="richard-kasan-pianis" font-family="ArialRoundedMTBold, Arial Rounded MT Bold" font-size="8" font-weight="normal" letter-spacing="0.6" fill="#FFFFFF">
+            <tspan x="63" y="8">richard</tspan>
+            <tspan x="63" y="19.9">kasan</tspan>
+            <tspan x="63" y="31.8">pianista</tspan>
+        </text>
+    </g>
+</svg>
