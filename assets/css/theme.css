@@ -1163,12 +1163,12 @@ a i {
     width: 70px !important;
   }
   .navbar-nav {
-    display: block;
+    display: none;
   }
   .navbar {
     width: 100%;
     position: relative;
-    padding: 00px 10px 00px 10px !important;
+    padding: 0px 10px 0px 10px !important;
   }
 }
 
@@ -1180,6 +1180,7 @@ a i {
 
 .navbar {
   background-color: #fdfdfd;
+  -webkit-border-radius: 0px !important;
   border-radius: 0px !important;
   background-clip: padding-box !important;
   /* stops bg color from leaking outside the border: */
@@ -1210,6 +1211,8 @@ a i {
 
 .navbar-transparent ul.navbar-nav-transparent li a {
   color: #fff !important;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
   -webkit-transition: 0.2s;
   transition: 0.2s;
   font-size: 14px;

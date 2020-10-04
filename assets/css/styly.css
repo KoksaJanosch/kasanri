@@ -4,31 +4,13 @@
   background-color: white;
   cursor: pointer;
   padding: 18px;
+
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
   font-size: 16px;
   font-family: "Open Sans", sans-serif !important;
-}
-
-.black-coll {
-  background-color: black;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 16px;
-}
-.white-coll {
-  background-color: white;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 16px;
 }
 
 .active, .collapsible:hover {
@@ -49,6 +31,7 @@
 
 .content {
   padding: 0 18px;
+  margin: 10px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
