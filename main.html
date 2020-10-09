@@ -50,7 +50,7 @@
             <li> <a href="#omne">O MNĚ</a></li>
             <li> <a href="#social">FOLLOW</a></li>
             <li> <a href="#qaa">Q&A</a></li>
-            <li> <a href="#noty">NOTY</a></li>
+            <li> <a href="noty.php">NOTY</a></li>
             <li> <a href="#kontakt">KONTAKT</a></li>
           </ul>
         </div>
@@ -61,7 +61,7 @@
             <li> <a href="#omne">O MNĚ</a></li>
             <li> <a href="#social">FOLLOW</a></li>
             <li> <a href="#qaa">Q&A</a></li>
-            <li> <a href="#noty">NOTY</a></li>
+            <li> <a href="noty.php">NOTY</a></li>
             <li> <a href="#kontakt">KONTAKT</a></li>
           </ul>
         </div>
@@ -84,7 +84,8 @@
             </header>
           </div>
         </a>
-        <a href="#noty">
+
+        <a href="noty.php">
           <div class=" col-sm-12 col-md-6" style="background-color: white; padding: 125px;">
             <header class="section-head">
               <h2 style="color: lightgray; font-size: 30px;">NOTY</h2>
@@ -158,14 +159,14 @@
         <p>Sledujte novinky.</p>
           <div style="padding-top: 25px">
             <a href="https://www.facebook.com/richard.kasan.3" target="none"><i class="ion-social-facebook" style="font-size: 25px; padding:10px;"></i></a>
-            <a href="https://www.youtube.com/" target="none"><i class="ion-social-youtube" style="font-size: 25px; padding:10px;"></a></i>
+            <a href="https://www.youtube.com/channel/UCUpeaZPXCkO9txWvjpX2DXw" target="none"><i class="ion-social-youtube" style="font-size: 25px; padding:10px;"></a></i>
             <a href="https://www.instagram.com/kasanrichard/" target="none"><i class="ion-social-instagram-outline" style="font-size: 25px; padding:10px;"></i></a>
-            <a href="" target="none"><i class="ion-card" style="font-size: 25px; padding:10px;"></i></a>
+            <a href="https://www.patreon.com/user?u=42498903" target="none"><i class="ion-card" style="font-size: 25px; padding:10px;"></i></a>
           </div>
       </header>
  
       <div class="video-intro section section-short section-dark"><i data-os-animation="video-line" data-os-animation-delay="0s" class="os-animation"></i>
-        <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-youtube">
+        <a href="https://www.youtube.com/watch?v=eQ8jLHUzfk4" class="popup-youtube">
           <img src="assets/images/photos/3.jp2" alt="Video Image"/>
           <span></span>
         </a>
@@ -265,7 +266,10 @@
               </div>
 
               <div class="col-sm-5 col-sm-push-2 col-xs-8 col-xs-push-2">
-                <form id="contact_form" method="POST" class="contact-form text-center row">
+
+                <form id="contactform" action="https://formsubmit.io/send/kasan-piano@gmail.com" method="POST" class="contact-form text-center row">
+                  <input name="_redirect" type="hidden" id="name" value="http://kasan-piano.cz/formular.php">
+
                   <div class="col-md-12 form-input-icon"><i class="ion-ios-person"></i>
                     <input id="name" name="name" type="text" placeholder="Jméno" required="required" />
                   </div>
@@ -276,11 +280,14 @@
                     <textarea style="height: 100px;" id="message" name="message" placeholder="Vaše zpráva"
                       required="required"></textarea>
                   </div>
+                  <input name="_formsubmit_id" type="text" style="display:none">
                   <div class="col-md-12">
                     <input type="submit" value="ODESLAT" class="contact-form-submit btn btn-success" />
                   </div>
                   <div id="messages" class="col-md-12"></div>
                 </form>
+
+
               </div>
             </div>
           </div>
@@ -293,15 +300,23 @@
         <div class="row">
           <div class="col-md-12">
             <ul class="social-icons">
-              <li><a href="#"><i class="ion-social-instagram"></i></a></li>
-              <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-              <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+              <li><a href="https://www.facebook.com/richard.kasan.3" target="none"><i class="ion-social-facebook"
+                  style="font-size: 25px; padding:10px;"></i></a></li>
+              <li><a href="https://www.youtube.com/channel/UCUpeaZPXCkO9txWvjpX2DXw" target="none"><i class="ion-social-youtube"
+                  style="font-size: 25px; padding:10px;"></a></i></li>
+              <li><a href="https://www.instagram.com/kasanrichard/" target="none"><i class="ion-social-instagram-outline"
+                  style="font-size: 25px; padding:10px;"></i></a></li>
+              <li><a href="https://www.patreon.com/user?u=42498903" target="none"><i class="ion-card" style="font-size: 25px; padding:10px;"></i></a></li>
             </ul>
           </div>
         </div>
         <div class="row">
           <div class="col-md-12">
-            <p class="footer-message">COPYRIGHT © 2015  M &amp; M - CRAFTED WITH <i class="ion-heart"></i> BY <a href="http://andrewch.eu">ANDREW CHS</a> </p>
+            
+            <p class="footer-message">
+              <span>Vytvořil na míru <a href="https://www.facebook.com/petr.janosch/" target="none"><b> Petr Janoš</b></a>, petr.janos@skaut.cz</span>
+              <br>
+              Copyright © 2015  M &amp; M - crafted with <i class="ion-heart"></i> by <a href="http://andrewch.eu">Andrew CHS</a> </p>
           </div>
         </div>
         <div class="clear"></div>
